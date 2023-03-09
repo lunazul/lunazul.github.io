@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #1a9159;
+  color: #ffb03b;
 }
 
 a:hover {
@@ -143,7 +143,7 @@ h6 {
 # Book a table button Menu
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  background: #ffb03b;
+  background: #169750;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -524,7 +524,7 @@ h6 {
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #1a9159;
+  background: #0e5027;
   color: #fff;
 }
 
