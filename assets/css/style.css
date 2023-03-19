@@ -143,8 +143,8 @@ h6 {
 # Book a table button Menu
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  background: #F4DFD0;
-  color: #000000;
+  background: #169750;
+  color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
   padding: 10px 25px;
@@ -156,8 +156,8 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #FFF5EB;
-  color: #000000;
+  background: #169750;
+  color: #fff;
 }
 
 @media (max-width: 992px) {
@@ -441,7 +441,7 @@ h6 {
 }
 
 #hero h2 span {
-  color: #B2B8A3;
+  color: #ffb03b;
 }
 
 #hero p {
@@ -519,12 +519,12 @@ h6 {
   margin: 0 10px;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #B2B8A3;
+  border: 2px solid #ffb03b;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #DAD0C2;
+  background: #0e5027;
   color: #fff;
 }
 
