@@ -214,7 +214,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffb03b;
+  color: #B2B8A3;
 }
 
 .navbar .dropdown ul {
@@ -405,7 +405,7 @@ h6 {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: inherit;
 }
 
 #hero .carousel-item::before {
