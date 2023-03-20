@@ -402,16 +402,10 @@ h6 {
 
 #hero .carousel-item {
   width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: inherit;
-}
-
-@media (min-width: 1024px) {
-  .carousel-item {
-    width: 50%;
-    }
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat:inherit;
 }
 
 #hero .carousel-item::before {
@@ -425,7 +419,7 @@ h6 {
 }
 
 #hero .carousel-container {
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   position: absolute;
