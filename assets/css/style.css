@@ -16,11 +16,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffb03b;
+  color: #FFF5EB;
 }
 
 a:hover {
-  color: #ffc56e;
+  color: #F4DFD0;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ h6 {
 }
 
 #topbar i {
-  color: #169750;
+  color: #000000;
   line-height: 0;
 }
 
