@@ -936,7 +936,37 @@
                             </div>
                         </div>
                 </section>
-color
+
+
+<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Dein Name" required>
+        </div>
+        <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Deine Email-Adresse" required>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Betreff" required>
+    </div>
+    <div class="form-group mt-3">
+        <textarea class="form-control" name="message" rows="5" placeholder="Hallo Patricia & Stephan, ..."
+            required></textarea>
+    </div>
+    <div class="my-3">
+        <div class="loading">Laden</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Deine Nachricht wurde verschickt, wir kommen demnächst auf dich zu. Vielen Dank!
+        </div>
+    </div>
+    <div class="text-center"><button type="submit">Nachricht abschicken</button></div>
+</form>
+
+
+
+
+                color
 
 verdigris
 #007070:
