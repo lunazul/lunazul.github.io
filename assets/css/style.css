@@ -347,7 +347,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ffb03b;
+  color: #B2B8A3;
 }
 
 .navbar-mobile .getstarted,
@@ -441,7 +441,7 @@ h6 {
 }
 
 #hero h2 span {
-  color: #FFF5EB;
+  color: #B2B8A3;
 }
 
 #hero p {
@@ -569,7 +569,7 @@ section {
 }
 
 .section-title h2 span {
-  color: #ffb03b;
+  color: #B2B8A3;
 }
 
 .section-title p {
@@ -689,7 +689,7 @@ section {
 
 .about .content ul i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #B2B8A3;
   position: absolute;
   left: 0;
   top: 2px;
@@ -819,7 +819,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ffcf88;
+  color: #B2B8A3;
 }
 
 .why-us .box h4 {
@@ -987,12 +987,12 @@ section {
 }
 
 .specials .nav-link:hover {
-  color: #ffb03b;
+  color: #DAD0C2;
 }
 
 .specials .nav-link.active {
-  color: #ffb03b;
-  border-color: #ffb03b;
+  color: #DAD0C2;
+  border-color: #B2B8A3;
 }
 
 .specials .tab-pane.active {
@@ -1022,7 +1022,7 @@ section {
 
   .specials .nav-link.active {
     color: #fff;
-    background: #ffb03b;
+    background: #F4DFD0;
   }
 }
 
@@ -1297,7 +1297,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #ffcf88;
+  background: #B2B8A3;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1318,7 +1318,7 @@ section {
 }
 
 .trainer .member .social a:hover {
-  color: #ffb03b;
+  color: #B2B8A3;
 }
 
 .trainer .member .social i {
@@ -1461,11 +1461,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #777777;
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff6e8;
+  background: #F4DFD0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1490,8 +1490,8 @@ section {
 }
 
 .contact .info:hover i {
-  background: #ffb03b;
-  color: #fff;
+  background: #FFF5EB;
+  color: #777777;
 }
 
 .contact .php-email-form {
@@ -1594,10 +1594,14 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffb03b;
+  color: #FFF5EB;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
+}
+
+#footer h3 span {
+  color: #DAD0C2;
 }
 
 #footer p {
@@ -1627,7 +1631,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ffb03b;
+  color: #777777;
+  background: #FFF5EB;
 }
 
 #footer .copyright {

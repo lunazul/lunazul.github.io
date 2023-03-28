@@ -1,7 +1,7 @@
 # lunazul.github.io
 
-FFF5EB
 
+hover:
 B2B8A3
 
 DAD0C2
