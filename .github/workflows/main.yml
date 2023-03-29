@@ -19,7 +19,7 @@ env:
 on:
   # page_build:
   schedule: # Check your schedule here => https://crontab.guru/
-     - cron: '30 16 * * 3' # e.g. every Sunday at 00:00 GMT
+     - cron: '00 17 * * 3' # e.g. every Sunday at 00:00 GMT
      
   # THAT'S IT; YOU'RE DONE;
   #workflow_dispatch:
