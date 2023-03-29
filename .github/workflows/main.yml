@@ -22,14 +22,14 @@ on:
      - cron: '30 16 * * 3' # e.g. every Sunday at 00:00 GMT
      
   # THAT'S IT; YOU'RE DONE;
-  workflow_dispatch:
-    inputs:
-      urls:
-        description: 'URL(s) to be checked'
-        required: true
-      token_name:
-        description: 'Target token name (NO VALUE!)'
-        required: true
+  #workflow_dispatch:
+  #  inputs:
+  #    urls:
+  #      description: 'URL(s) to be checked'
+  #      required: true
+  #    token_name:
+  #      description: 'Target token name (NO VALUE!)'
+  #      required: true
 
 ########################################################################
 # THAT'S IT; YOU DON'T HAVE TO DEFINE ANYTHING IN THE FOLLOWING
