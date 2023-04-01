@@ -24,3 +24,27 @@ ffb03b
   background-position: center;
   background-repeat: no-repeat;
 }
+
+- paseala
+- completo
+
+- bolero
+
+- media, manton, salida
+
+- rebote
+- rompo delante
+
+- slide
+- impulso
+
+- culito
+- condra de cadera
+
+- pinza
+
+- onda con rotation
+
+- headroll
+
+- cambre
