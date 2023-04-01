@@ -96,7 +96,15 @@
 
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-00.jpeg);">
+          <div class="carousel-item active">
+            <picture>
+              <source media="(orientation: landscape)" srcset="assets/img/slide/slide-00.jpeg"
+               sizes="">
+              <source media="(orientation: portrait)" srcset="assets/img/slide/slide-99.jpeg"
+              sizes="">
+              <img src="assets/img/slide/slide-00.jpeg" alt="Image description">
+            </picture>
+
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span> </span></h2>
