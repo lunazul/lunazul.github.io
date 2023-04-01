@@ -110,7 +110,12 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-01.jpeg);">
+          <div class="carousel-item" backgr>
+            <picture>
+              <source media="(orientation: landscape)" srcset="assets/img/slide/slide-01.jpeg" sizes="">
+              <source media="(orientation: portrait)" srcset="assets/img/slide/slide-99.jpeg" sizes="80vw">
+              <img src="assets/img/slide/slide-01.jpeg" alt="Image description">
+            </picture>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span> </span></h2>
@@ -130,7 +135,7 @@
             <div class="carousel-item active">
               <picture>
                 <source media="(orientation: landscape)" srcset="assets/img/slide/slide-02.jpeg" sizes="">
-                <source media="(orientation: portrait)" srcset="assets/img/slide/slide-99.jpeg" sizes="80vw">
+                <source media="(orientation: portrait)" srcset="assets/img/slide/slide-99.jpeg" sizes="50vw">
                 <img src="assets/img/slide/slide-02.jpeg" alt="Image description">
               </picture>
 
