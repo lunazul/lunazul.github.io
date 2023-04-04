@@ -93,7 +93,7 @@ h6 {
 }
 
 #topbar i span {
-  color: #fff;
+  color: #DAD0C2;
   font-style: normal;
   padding-left: 5px;
 }
@@ -534,24 +534,12 @@ h6 {
   #hero h2 {
     font-size: 28px;
   }
-
-  /*--------------------------------------------------------------
-    .mobile-bild {
-      display: none;
-    }
---------------------------------------------------------------*/
 }
 
 @media (min-width: 1024px) {
   #hero p {
     width: 50%;
   }
-
-  /*--------------------------------------------------------------
-.desktop-bild {
-  display: none;
-}
-  --------------------------------------------------------------*/
 
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
