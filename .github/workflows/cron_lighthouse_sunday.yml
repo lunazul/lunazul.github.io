@@ -1,4 +1,4 @@
-name: Lighthouse CI cron sunday
+name: Lighthouse CI weekly
 on:
   schedule:
      - cron:  '0 0 * * 0'

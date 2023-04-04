@@ -1,4 +1,4 @@
-name: Lighthouse CI check production
+name: Lighthouse CI release
 on:
   push:
     branches: ["production"]
