@@ -4,13 +4,13 @@
 
 Repository statistics:
 
-![GitHub repo size](https://img.shields.io/github/repo-size/lunazul/lunazul.github.io?style=plastic)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/lunazul/lunazul.github.io?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lunazul/lunazul.github.io?style=plastic)
 
+![GitHub issues](https://img.shields.io/github/issues-raw/lunazul/lunazul.github.io?style=plastic)
 ![GitHub milestones](https://img.shields.io/github/milestones/all/lunazul/lunazul.github.io?style=plastic)
 
-![GitHub issues](https://img.shields.io/github/issues-raw/lunazul/lunazul.github.io?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/lunazul/lunazul.github.io?style=plastic)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/lunazul/lunazul.github.io?style=plastic)
 
 Lighthouse Results:
 
