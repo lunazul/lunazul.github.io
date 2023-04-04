@@ -1,9 +1,7 @@
 # Monitoring and status for github page
 
 ![psbachata.dance](https://img.shields.io/website?down_color=red&down_message=offline&label=psbachata.dance&style=plastic&up_color=green&up_message=online&url=https%3A%2F%2Fpsbachata.dance)
-
 ![Release Date](https://img.shields.io/github/release-date/lunazul/lunazul.github.io?style=plastic)
-
 ![Release Version](https://img.shields.io/github/v/tag/lunazul/lunazul.github.io?label=version&style=plastic)
 
 Repository statistics:
