@@ -17,13 +17,17 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/lunazul/lunazul.github.io?style=plastic)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/lunazul/lunazul.github.io?style=plastic)
 
-### Lighthouse Results
+## Lighthouse Results
 
 [![Lighthouse CI release](https://github.com/lunazul/lunazul.github.io/actions/workflows/production_lighthouse.yml/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/production_lighthouse.yml)
 
 [![Lighthouse CI weekly](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml)
 
+## Lighthouse Desktop
+
 ![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/lighthouse_results/first_group/desktop/pagespeed.svg)
+
+## Lighthouse Mobile
 
 ![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/lighthouse_results/first_group/mobile/pagespeed.svg)
 
