@@ -63,9 +63,9 @@ jobs:
           ##############################################################
           # SECOND URL-GROUP | DEFINE YOUR ENV IN THE FOLLOWING
           ##############################################################
-          - NAME: 'URL-GROUP 2' # e.g. 'URL-GROUP 2'
-            URLS: 'https://mythemeway.github.io/Dark-Particle/ https://mythemeway.github.io/Dark-Particle/projects/2020/10/31/project-1.html' # e.g. 'https://mythemeway.github.io/Dark-Particle/ https://mythemeway.github.io/Dark-Particle/projects/2020/10/31/project-1.html'
-            BADGES_ARGS: '-b flat -o lighthouse_results/second_group -r' # e.g. '-b flat -o lighthouse_results/second_group -r'
+    #      - NAME: 'URL-GROUP 2' # e.g. 'URL-GROUP 2'
+    #        URLS: 'https://mythemeway.github.io/Dark-Particle/ https://mythemeway.github.io/Dark-Particle/projects/2020/10/31/project-1.html' # e.g. 'https://mythemeway.github.io/Dark-Particle/ https://mythemeway.github.io/Dark-Particle/projects/2020/10/31/project-1.html'
+    #        BADGES_ARGS: '-b flat -o lighthouse_results/second_group -r' # e.g. '-b flat -o lighthouse_results/second_group -r'
             # Your defaults will be used unless you redefine a following env
             # TOKEN_NAME:
             # REPO_BRANCH:
