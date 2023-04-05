@@ -16,7 +16,10 @@ branding:
 
   # Allows you to run this workflow manually from the Actions tab
   on:
-  workflow_dispatch:
+    push:
+    branches: ["production"]
+
+    workflow_dispatch:
 
 inputs:
   urls:
