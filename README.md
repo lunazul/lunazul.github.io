@@ -31,7 +31,7 @@
 
 ![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/lighthouse_results/first_group/mobile/pagespeed.svg)
 
-### Additional goals
+## Additional goals
 
 ![Security Headers](https://img.shields.io/security-headers?style=plastic&url=https%3A%2F%2Fpsbachata.dance)
 
