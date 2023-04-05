@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '16'
       - run: npm i lighthouse-badges
-      - run: lighthouse-badges --urls https://psbachata.dance/ --output-path=./lighthouse-results.html
+      - run: lighthouse-badges --urls https://psbachata.dance/ --output-path= lighthouse-results.html
 
       - uses: actions/upload-artifact@v3
         with:
