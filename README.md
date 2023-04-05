@@ -23,6 +23,9 @@
 
 [![Lighthouse CI weekly](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml)
 
+![Alt text](./lighthouse_results/first_group/desktop.pagespeed.svg)
+<img src="./lighthouse_results/first_group/desktop.pagespeed.svg">
+
 ### Additional goals
 
 ![Security Headers](https://img.shields.io/security-headers?style=plastic&url=https%3A%2F%2Fpsbachata.dance)
