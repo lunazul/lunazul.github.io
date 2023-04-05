@@ -23,8 +23,8 @@
 
 [![Lighthouse CI weekly](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml)
 
-![Alt text](./lighthouse_results/first_group/desktop.pagespeed.svg)
-<img src="./lighthouse_results/first_group/desktop.pagespeed.svg">
+![Alt text](https://github.com/lunazul/lunazul.github.io/blob/main/lighthouse_results/first_group/desktop/pagespeed.svg)
+<img src="https://github.com/lunazul/lunazul.github.io/blob/main/lighthouse_results/first_group/desktop/pagespeed.svg">
 
 ### Additional goals
 
