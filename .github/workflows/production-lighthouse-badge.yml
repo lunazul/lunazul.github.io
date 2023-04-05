@@ -14,13 +14,6 @@ branding:
   icon: bold
   color: purple
 
-  # Allows you to run this workflow manually from the Actions tab
-  on:
-    push:
-    branches: ["production"]
-
-    workflow_dispatch:
-
 inputs:
   urls:
     description: 'URL(s) to be checked'
