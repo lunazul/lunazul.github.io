@@ -15,6 +15,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: |
-            npm i -g lighthouse-badges
-            lighthouse-badges --urls https://psbachata.dance/ -o test_results
+      - run: npm i lighthouse-badges
+      - run: lighthouse-badges --urls https://psbachata.dance/ --output-path=./lighthouse-results.html
+
+      - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: ${{ github.workspace }}
+        #uploadArtifacts: true # save results as an action artifacts
+        #temporaryPublicStorage: true # upload lighthouse report to the temporary storage
