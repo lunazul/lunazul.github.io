@@ -1,0 +1,17 @@
+name: Lighthouse badge update
+on:
+  push:
+    branches: ["production"]
+
+jobs:
+  Run-npm-on-Ubuntu:
+    name: Run npm on Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: |
+            npm i -g lighthouse-badges
+            lighthouse-badges --urls https://psbachata.dance/ -o test_results
