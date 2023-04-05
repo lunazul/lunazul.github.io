@@ -16,8 +16,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: npm i lighthouse-badges
-      - run: lighthouse-badges -u https://psbachata.dance/ -o lighthouse-results.html
+      - run: npm i -g lighthouse-badges
+      - run: npm lighthouse-badges -u https://psbachata.dance/ -o lighthouse-results.html
 
       #- uses: actions/upload-artifact@v3
        # with:
