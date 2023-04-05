@@ -8,7 +8,7 @@
 
 ## Repository
 
-![GitHub issues](https://img.shields.io/github/issues-raw/lunazul/lunazul.github.io?&label=pending features&style=plastic)
+![GitHub issues](https://img.shields.io/github/issues-raw/lunazul/lunazul.github.io?label=pending features&style=plastic)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/lunazul/lunazul.github.io?style=plastic)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/lunazul/lunazul.github.io?label=scheduled%20pull%20requests&style=plastic)
