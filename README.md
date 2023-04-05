@@ -25,11 +25,11 @@
 
 ### Desktop
 
-![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/lighthouse_results/first_group/desktop/pagespeed.svg)
+![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/test/lighthouse/desktop/pagespeed.svg)
 
 ### Mobile
 
-![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/lighthouse_results/first_group/mobile/pagespeed.svg)
+![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/test/lighthouse/mobile/pagespeed.svg)
 
 ## Additional goals
 
