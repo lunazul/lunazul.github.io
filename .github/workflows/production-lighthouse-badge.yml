@@ -14,7 +14,7 @@ name: 'Lighthouse-Badger-Advanced'
 
 # INPUTS as environmental variables (env)
 env:
-  TOKEN_NAME: 'LIGHTHOUSE_CI_BADGER_TOKEN' # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
+  TOKEN_NAME: 'GH_ACCESS_TOKEN' # target token name; insert only the name never the real value e.g. 'LIGHTHOUSE_BADGER_TOKEN'
   # To change predefined values, just override them
   REPO_BRANCH: '${{ github.repository }} main' # target repository & branch (predefined: repo with this file and main branch)
   USER_NAME: 'github-actions[bot]' # user who should commit
@@ -39,7 +39,7 @@ on:
 jobs:
   lighthouse-badger-advanced:
     name: ${{ matrix.NAME }}
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     timeout-minutes: 8
     strategy:
       fail-fast: false
