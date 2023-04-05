@@ -30,3 +30,5 @@ Additional goals:
 ![Chromium HSTS preload](https://img.shields.io/hsts/preload/psbachata.dance?style=plastic)
 
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&label=testpage&style=plastic&up_color=green&up_message=online&url=https%3A%2F%2Fbachata-regensburg.de)
+
+@prscheduler 26/08/2019T11:05
