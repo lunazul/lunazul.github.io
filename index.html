@@ -25,6 +25,7 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <!--  <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -48,7 +49,11 @@
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
-      <i class="bi bi-phone d-flex align-items-center"><span>+49 15678 659226</span></i>
+      <a aria-label="Chat on WhatsApp"
+        href="https://wa.me/004915678659226?text=Hallo%20Patricia%20und%20Stephan,%20ich%20habe%20weitere%20Fragen%20zu%20..."
+        target="_blank" rel="noopener noreferrer">
+        <img alt="Chat on WhatsApp" width="150"
+          src="assets/img/whatsapp/ChatOnWhatsAppButton/WhiteTheme/WhatsAppButtonWhiteSmall.png" /> </a>
       <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Dienstag: 17:00 - 18:30 Bachata
           Foundations-Combinations</span></i>
       <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mittwoch: 17:00 - 19:00 Hochschulsport
@@ -61,23 +66,45 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <a href="#"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a href="#"><img src="assets/favicon/logo.png" alt="" class="img-fluid"></a>
         <a href="#">Patricia & Stephan - Bachata</a>
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#class">Kurse</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li class="dropdown"><a href="#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#about">Über uns</a></li>
+              <li><a href="about-bachata-sensual.html">Bachata Sensual</a></li>
+              <li><a href="about-bachata-dominican.html">Bachata Dominican</a></li>
+              <li><a href="about-role-rotation.html">Role Rotation</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#class"><span>Kurse</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#class">Kurskonzept</a></li>
+              <li><a href="#">Preise</a></li>
+              <li><a href="#">Foundations & Combinations</a></li>
+              <li><a href="hochschulsport.html">Hochschulsport</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#events"><span>Events</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="events-upcoming.html">Upcoming Events</a></li>
+              <li><a href="events-previous.html">Previous Events</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#gallery"><span>Gallery</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
-      <a href="mailto:mail@psbachata.dance?subject=Kursanmeldung für Bachata Foundations und Combinations!&body=Hallo Patricia und Stephan, ich habe folgende Fragen zum Kursstart am DI 18.04.23 um 17Uhr im Ritmo Regensburg..."
+      <a href="mailto:mail@psbachata.dance?subject=Kursanmeldung für Bachata Foundations und Combinations&body=Hallo Patricia und Stephan, ich habe folgende Fragen zum Kursstart am DI 18.04.23 um 17Uhr im Ritmo Regensburg..."
         class="book-a-table-btn scrollto">Kursanmeldung</a>
     </div>
   </header><!-- End Header -->
@@ -119,9 +146,11 @@
                 <h2 class="animate__animated animate__fadeInDown"><span> </span></h2>
                 <p class="animate__animated animate__fadeInUp"> </p>
                 <div>
-                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Was ist Bachata
+                  <a href="about-bachata-sensual.html" class="btn-menu animate__animated animate__fadeInUp scrollto">Was
+                    ist Bachata
                     Sensual?</a>
-                  <a href="#menu" class="btn-book animate__animated animate__fadeInUp scrollto">Was ist Bachata
+                  <a href="about-bachata-dominican.html"
+                    class="btn-book animate__animated animate__fadeInUp scrollto">Was ist Bachata
                     Dominicana?</a>
                 </div>
               </div>
@@ -156,39 +185,39 @@
         </a>
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!-- Hero Section End -->
 
 
-
+  <!-- ======= About Section ======= -->
   <section id="about" class="about">
-    <div class="container-fluid">
+    <div class="container" data-aos="fade-up">
       <div class="row">
 
-        <div class="col-lg-5 align-items-center video-box">
+        <div class="col-lg-6 order-1 order-lg-2 video-box" data-aos="zoom-in" data-aos-delay="100">
           <video muted="true" autoplay="false" loop="true" src="assets/video/class.mp4" type="video/mp4" width="400">
         </div>
-        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
-          <div class="content">
-            <h3>Willkommen bei Patricia & Stephan in Regensburg</h3>
-            <p>
-              Wir sind zertifizierte Bachata Sensual / Dominican Lehrer, die leidenschaftlich
-              gern ihr Wissen an ihre Schüler weitergeben.
-            </p>
-            <p class="fst-italic">
-              Unser Kurskonzept: Foundations & Combinations.
-            </p>
-            <p class="fst-italic">
-              Unser Motto:
-              Build a strong foundation and you can reach
-              even the most unthinkable heights.
-            </p>
-            <ul>
-              <li><i class="bx bx-check-double"></i> Zertifiziert in Bachata Sensual.
-              </li>
-              <li><i class="bx bx-check-double"></i> Zertifiziert für Bachata Dominican.</li>
-              <li><i class="bx bx-check-double"></i> Role Rotation.</li>
-            </ul>
-          </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>Willkommen bei Patricia & Stephan in Regensburg</h3>
+          <p class="fst-italic">
+            Wir sind zertifizierte Bachata Sensual / Dominican Lehrer, die leidenschaftlich
+            gern ihr Wissen an ihre Schüler weitergeben.
+          </p>
+          <ul>
+            <li><i class="bi bi-check-circle"></i> <a href="about-bachata-sensual.html">Zertifiziert in Bachata
+                Sensual.</a> </li>
+            <li><i class="bi bi-check-circle"></i> <a href="about-bachata-dominican.html">Zertifiziert für Bachata
+                Dominican.</a> </li>
+            <li><i class="bi bi-check-circle"></i> <a href="about-role-rotation.html">Role Rotation.</a> </li>
+          </ul>
+          <p>
+            Unser Kurskonzept: Foundations & Combinations.
+          </p>
+          <p>
+            Unser Motto:
+            Build a strong foundation and you can reach
+            even the most unthinkable heights.
+          </p>
         </div>
       </div>
     </div>
@@ -196,7 +225,7 @@
 
   <!-- ======= Trainer Section ======= -->
   <section id="about" class="trainer">
-    <div class="container">
+    <div class="container" data-aos="fade-up">
 
       <div class="section-title">
         <h2>Deine <span>Trainer</span></h2>
@@ -208,7 +237,7 @@
       <div class="row">
 
         <div class="col-lg-4 col-md-6">
-          <div class="member">
+          <div class="member" data-aos="zoom-in" data-aos-delay="100">
             <div class="pic"><img src="assets/img/trainer/patricia.jpeg" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>PATRICIA</h4>
@@ -227,7 +256,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="member">
+          <div class="member" data-aos="zoom-in" data-aos-delay="200">
             <div class="pic"><img src="assets/img/trainer/patriciaystephan.JPG" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>Patricia & Stephan</h4>
@@ -242,7 +271,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="member">
+          <div class="member" data-aos="zoom-in" data-aos-delay="300">
             <div class="pic"><img src="assets/img/trainer/stephan.jpeg" class="img-fluid" alt=""></div>
             <div class="member-info">
               <h4>STEPHAN</h4>
@@ -303,14 +332,14 @@
               Auf diese Inhalte legen wir besonders viel wert:
             </p>
             <ul>
-              <li><i class="bx bx-check-double"></i> Smoothes Leading und Following / weiche Transitions </li>
-              <li><i class="bx bx-check-double"></i> Musikalische Struktur und Theorie der Bachata Stile </li>
-              <li><i class="bx bx-check-double"></i> Bachata Timing </li>
-              <li><i class="bx bx-check-double"></i> Hits und Breaks </li>
-              <li><i class="bx bx-check-double"></i> Styling & Ausdruck </li>
-              <li><i class="bx bx-check-double"></i> Bachata Footwork </li>
-              <li><i class="bx bx-check-double"></i> Improvisation </li>
-              <li><i class="bx bx-check-double"></i> Und vor allem: Spaß auf der Tanzfläche (Social Dance) </li>
+              <li><i class="bi bi-check-circle"></i> Smoothes Leading und Following / weiche Transitions </li>
+              <li><i class="bi bi-check-circle"></i> Musikalische Struktur und Theorie der Bachata Stile </li>
+              <li><i class="bi bi-check-circle"></i> Bachata Timing </li>
+              <li><i class="bi bi-check-circle"></i> Hits und Breaks </li>
+              <li><i class="bi bi-check-circle"></i> Styling & Ausdruck </li>
+              <li><i class="bi bi-check-circle"></i> Bachata Footwork </li>
+              <li><i class="bi bi-check-circle"></i> Improvisation </li>
+              <li><i class="bi bi-check-circle"></i> Und vor allem: Spaß auf der Tanzfläche (Social Dance) </li>
             </ul>
           </div>
 
@@ -323,8 +352,8 @@
   <!-- ======= Whu Us Section ======= -->
   <!-- End Whu Us Section -->
 
-  <!-- ======= Menu Section ======= -->
-  <section id="menu" class="menu">
+  <!-- ======= Class Section ======= -->
+  <section id="class-fc" class="class">
     <div class="container-fluid" style="background: linear-gradient(90deg, #F4DFD0 0%, #FFF5EB 100%);">
       <div class="container p-5">
         <div class="row">
@@ -341,15 +370,9 @@
                 <p class="card-text">Das beste Angebot um einmal unseren 12-Wochen-Cycle zu durchlaufen.</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                  </svg><i class="bx bx-check-double"></i> 90 min pro Woche </li>
-                <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                  </svg><i class="bx bx-check-double"></i> Der beste Weg zum Tanz-Star </li>
-                <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                  </svg><i class="bx bx-check-double"></i> Lerne alle Bachata Elemente </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> 90 min pro Woche </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> Der beste Weg zum Tanz-Star </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> Lerne alle Bachata Elemente </li>
               </ul>
             </div>
           </div>
@@ -366,15 +389,9 @@
                 <p class="card-text"> </p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                  </svg><i class="bx bx-check-double"></i> 8 x 90 min </li>
-                <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                  </svg> <i class="bx bx-check-double"></i> 3 Monate Gültigkeit </li>
-                <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                  </svg><i class="bx bx-check-double"></i> Flexibel einsetzbar </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> 8 x 90 min </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> 3 Monate Gültigkeit </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> Flexibel einsetzbar </li>
               </ul>
             </div>
           </div>
@@ -388,22 +405,19 @@
                   <span class="h2">€15</span>/Unterrichtseinheit
                   <br><br>
                 </div>
-                <p class="card-text">Melde dich für deine erste Schnupperstunde an oder komme zu einer von unseren Special Kurseinheiten.</p>
+                <p class="card-text">Melde dich für deine erste Schnupperstunde an oder komme zu einer von unseren
+                  Special Kurseinheiten.</p>
               </div>
               <ul class="list-group list-group-flush">
-              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-check" viewBox="0 0 16 16">
-                </svg><i class="bx bx-check-double"></i> 1 x 90 min </li>
-              <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-check" viewBox="0 0 16 16">
-                </svg><i class="bx bx-check-double"></i> flexibles Kennenlernangebot </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> 1 x 90 min </li>
+                <li class="list-group-item"><i class="bi bi-check-circle"></i> flexibles Kennenlernangebot </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
   </section>
-  <!-- End Menu Section -->
+  <!-- End Class Section -->
 
   <!-- ======= Specials Section ======= -->
   <section id="events" class="specials">
@@ -714,13 +728,17 @@
           </div>
 
           <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
-            <i class="bi bi-envelope"></i>
+            <a href="mailto:mail@psbachata.dance?subject=Info über...&body=Hallo Patricia und Stephan, ..."
+             ><i class="bi bi-envelope"></i></a>
             <h4>Email:</h4>
             <p>mail@psbachata.dance</p>
           </div>
 
           <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
-            <i class="bi bi-whatsapp"></i>
+            <a aria-label="Chat on WhatsApp"
+              href="https://wa.me/004915678659226?text=Hallo%20Patricia%20und%20Stephan,%20ich%20habe%20weitere%20Fragen%20zu%20..."
+              target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-whatsapp"></i></a>
             <h4>Whatsapp:</h4>
             <p>+49 15678 659226</p>
           </div>
@@ -743,29 +761,20 @@
         <a href="https://www.instagram.com/patriciaystephan_bachata/" class="instagram"><i
             class="bx bxl-instagram"></i></a>
       </div>
-      <div class="datenschutzrechtlich">
-        <a href="datenschutzerklaerung.html" class="datenschutzerklaerung">Datenschtzerklärung & Impressum</a>
-      </div>
-      <div class="copyright">
-        &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-      <div>
-        <img alt="Bootstrap"
-          src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
-        <img alt="HTML 5"
-          src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-        <img alt="Tag (latest by date)"
-          src="https://img.shields.io/github/v/tag/lunazul/lunazul.github.io?label=version&style=for-the-badge">
-        <img alt="Release Date"
-          src="https://img.shields.io/github/release-date/lunazul/lunazul.github.io?style=for-the-badge">
-      </div>
+    </div>
+    <div class="datenschutzrechtlich">
+      <a href="datenschutzerklaerung.html" class="datenschutzerklaerung">Datenschtzerklärung & Impressum</a>
+    </div>
+    <div class="copyright">
+      &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
     </div>
   </footer><!-- End Footer -->
 
@@ -773,6 +782,7 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
