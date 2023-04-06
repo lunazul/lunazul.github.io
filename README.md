@@ -1,6 +1,6 @@
 # release stats for gh-page
 
-![psbachata.dance](https://img.shields.io/website?down_color=red&down_message=offline&label=psbachata.dance&style=plastic&up_color=green&up_message=online&url=https%3A%2F%2Fpsbachata.dance)
+![Website](https://img.shields.io/website?label=psbachata.dance&style=plastic&url=https%3A%2F%2Fpsbachata.dance)
 [![pages-build-deployment](https://github.com/lunazul/lunazul.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/pages/pages-build-deployment)
 
 ![Release Date](https://img.shields.io/github/release-date/lunazul/lunazul.github.io?style=plastic)
