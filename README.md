@@ -21,7 +21,7 @@
 
 [![Lighthouse CI release](https://github.com/lunazul/lunazul.github.io/actions/workflows/production_lighthouse.yml/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/production_lighthouse.yml)
 
-[![Lighthouse CI weekly](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml)
+[![Lighthouse CI weekly](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml/badge.svg)](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml)
 
 ### Desktop
 
