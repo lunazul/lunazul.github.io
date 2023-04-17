@@ -24,14 +24,29 @@ a:hover {
   text-decoration: none;
 }
 
+/* marck-script-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Marck_Script/marck-script-v16-latin-regular.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/Marck_Script/marck-script-v16-latin-regular.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Marck Script", sans-serif;
 }
+
+
 
 /*--------------------------------------------------------------
 # Preloader
