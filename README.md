@@ -33,6 +33,8 @@
 
 ## Additional goals
 
+[![Lint Code Base](https://github.com/lunazul/lunazul.github.io/actions/workflows/super-linter.yml/badge.svg?branch=main)](https://github.com/lunazul/lunazul.github.io/actions/workflows/super-linter.yml)
+
 ![Security Headers](https://img.shields.io/security-headers?style=plastic&url=https%3A%2F%2Fpsbachata.dance)
 
 ![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade-score/psbachata.dance?publish&style=plastic)
