@@ -1,7 +1,6 @@
 # dashboard
 
 ![Website](https://img.shields.io/website?label=psbachata.dance&style=plastic&url=https%3A%2F%2Fpsbachata.dance)
-![Website](https://img.shields.io/website?label=testpage&style=plastic&url=https%3A%2F%2Fbachata-regensburg.de)
 
 ![Release Date](https://img.shields.io/github/release-date/lunazul/lunazul.github.io?style=plastic)
 ![Release Version](https://img.shields.io/github/v/tag/lunazul/lunazul.github.io?label=version&style=plastic)
