@@ -1641,16 +1641,16 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffb03b;
+  background: #F4DFD0;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #000000;
   transition: 0.4s;
   border-radius: 50px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #FFF5EB;
 }
 
 @keyframes animate-loading {
