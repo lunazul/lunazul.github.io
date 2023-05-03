@@ -101,7 +101,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="mailto:mail@psbachata.dance?subject=Kursanmeldung für Bachata Foundations und Combinations&body=Hallo Patricia und Stephan, ich habe folgende Fragen zum Kursstart am DI 18.04.23 um 17Uhr im Ritmo Regensburg..."
+      <a href="#contact"
         class="book-a-table-btn scrollto">Kursanmeldung</a>
     </div>
   </header><!-- End Header -->
@@ -111,7 +111,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
       <div class="hero-container">
-        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="hero-carousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
           <div class="carousel-inner" role="listbox">
             <!-- Slide 1 -->
@@ -173,11 +173,11 @@
 
           </div>
 
-          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
           </a>
 
-          <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
           </a>
         </div>
@@ -504,7 +504,7 @@
                         role="link">Tickets</a> </p>
                     <p>Social Media: <a href="https://www.instagram.com/bachata_explosion_hari/" class="instagram"
                         target="_blank"><i class="bx bxl-instagram"></i> @bachata_explosion_hari</a></p>
-                    <p>Nächste Preisstufe: 30.04.23</p>
+                    <p>Nächste Preisstufe: </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-4.jpg" alt="" class="img-fluid">
@@ -524,7 +524,7 @@
                         role="link">Tickets</a> </p>
                     <p>Social Media: <a href=" https://www.facebook.com/events/975441439830358" class="facebook"
                         target="_blank"><i class="bx bxl-facebook"></i> DJ Got us fallin in love</a></p>
-                    <p>Nächste Preisstufe: 30.04.23</p>
+                    <p>Nächste Preisstufe: 15.05.23</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-5.jpg" alt="" class="img-fluid">
@@ -543,7 +543,7 @@
                         role="link">Tickets</a> </p>
                     <p>Social Media: <a href="https://www.instagram.com/bachata_explosion_hari/" class="instagram"
                         target="_blank"><i class="bx bxl-instagram"></i> @halloween_bachata_weekend</a></p>
-                    <p>Nächste Preisstufe: 30.04.23</p>
+                    <p>Nächste Preisstufe: 30.05.23</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-6.jpg" alt="" class="img-fluid">
@@ -775,6 +775,30 @@
             </div>
           </div>
         </div>
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Dein Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Deine Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Betreff" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Nachricht" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Deine Nachricht wurde verschickt. Wir kommen bald auf dich zu, danke dir!</div>
+              </div>
+              <div class="text-center"><button type="submit">Nachricht senden</button></div>
+            </form>
+
       </div>
     </section><!-- End Contact Section -->
   </main><!-- End #main -->
