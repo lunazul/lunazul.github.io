@@ -5,7 +5,7 @@
 ![Release Date](https://img.shields.io/github/release-date/lunazul/lunazul.github.io?style=plastic)
 ![Release Version](https://img.shields.io/github/v/tag/lunazul/lunazul.github.io?label=version&style=plastic)
 
-## CI
+## QA
 
 [![pages-build-deployment](https://github.com/lunazul/lunazul.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/pages/pages-build-deployment)
 
