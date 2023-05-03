@@ -42,11 +42,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #DAD0C2;
+  color: #F4DFD0;
 }
 
 a:hover {
-  color: #F4DFD0;
+  color: #d0e5f4;
   text-decoration: none;
 }
 
@@ -525,7 +525,7 @@ source {
 
 #hero h2 {
   color: #fff;
-  margin-bottom: 450px;
+  margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
 }
@@ -609,13 +609,14 @@ source {
   margin: 0 10px;
   animation-delay: 0.8s;
   color: #fff;
+  background: #DAD0C2;
   border: 2px solid #B2B8A3;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
   background: #DAD0C2;
-  color: #fff;
+  color: #B2B8A3;
 }
 
 @media (max-width: 768px) {
