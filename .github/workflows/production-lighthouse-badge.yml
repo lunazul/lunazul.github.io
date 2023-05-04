@@ -29,7 +29,7 @@ on:
   # push:
   pull_request:
     branches: 
-    - production
+    # - production
     - main
   # page_build:
   #   schedule: # Check your schedule here => https://crontab.guru/
