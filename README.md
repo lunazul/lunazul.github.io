@@ -11,10 +11,6 @@
 
 [![Lint Code Base](https://github.com/lunazul/lunazul.github.io/actions/workflows/super-linter.yml/badge.svg?branch=main)](https://github.com/lunazul/lunazul.github.io/actions/workflows/super-linter.yml)
 
-[![Lighthouse CI release](https://github.com/lunazul/lunazul.github.io/actions/workflows/production_lighthouse.yml/badge.svg?branch=production)](https://github.com/lunazul/lunazul.github.io/actions/workflows/production_lighthouse.yml)
-
-[![Lighthouse CI weekly](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml/badge.svg)](https://github.com/lunazul/lunazul.github.io/actions/workflows/cron_lighthouse_sunday.yml)
-
 ### Desktop
 
 ![Lighthouse Desktop](https://github.com/lunazul/lunazul.github.io/blob/main/test/lighthouse/desktop/pagespeed.svg)

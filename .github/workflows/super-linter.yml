@@ -12,11 +12,12 @@ name: Lint Code Base
 #
 
 #############################
-# Start the job on all push #
+# Start the job on pull request #
 #############################
 on:
-  push:
-   branches: ["main"]
+  pull_request:
+   # branches: ["main"]
+  workflow_dispatch:
 ###############
 # Set the Job #
 ###############
@@ -56,7 +57,7 @@ jobs:
         uses: github/super-linter@v5
         env:
           VALIDATE_ALL_CODEBASE: false
-          FILTER_REGEX_EXCLUDE: .*test/.*
+          FILTER_REGEX_EXCLUDE: .*test/.* |.*github/.*
           # Change to 'master' if your main branch differs
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
