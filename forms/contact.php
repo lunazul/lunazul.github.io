@@ -27,8 +27,8 @@
   
   $contact->smtp = array(
     'host' => 'smtp.gmail.com',
-    'username' => 'mail@psbachata.dance',
-    'password' => 'dwrxztjbzshbxebp',
+    'username' => '281891391752-1eqi122d2r8ebeogcgef9uuauamt8r1e.apps.googleusercontent.com',
+    'password' => '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',
     'port' => '587'
   );
   
